@@ -1,1 +1,20 @@
+# Ignore desktop.ini in all directories
 **/desktop.ini
+
+# Python
+__pycache__/
+*.sqlite3
+
+# ASP.NET
+bin/
+obj/
+*.user
+*.suo
+
+# Docker
+*.env
+db_data/
+
+# System files
+.DS_Store
+Thumbs.db
